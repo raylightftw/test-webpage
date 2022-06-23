@@ -1,0 +1,15 @@
+body
+{
+    display:flex;
+    flex-direction: column;
+}
+
+.header
+{
+    display:flex;
+    align-items: center;
+}
+.headerlogo
+{
+    flex: 1 1 0;
+}
