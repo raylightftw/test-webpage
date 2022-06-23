@@ -2,14 +2,29 @@ body
 {
     display:flex;
     flex-direction: column;
+    font-family:'Hero';
 }
 
 .header
 {
     display:flex;
     align-items: center;
+    justify-content:space-around;
+    background-color: #1F2937;
+    color:white;
 }
 .headerlogo
 {
-    flex: 1 1 0;
+    
+}
+.headerlinks
+{
+    display:flex;
+    
+    gap:18px;
+}
+a
+{
+    text-decoration: none;
+    color:white;
 }
