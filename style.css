@@ -48,28 +48,30 @@ a
     align-items: center;
     padding-left:100px;
     width:800px;
+    gap:20px;
     
     
     
 }
 .sec1button
 {
-    max-width: 180px;
+    width: 150px;
     background-color:#3882f6 ;
     color:white;
-    font-weight: 600;
+    font-weight: 800;
     padding:20px;
     margin-top: 20px;
     border-radius: 15px;
+    font-size: 18px;
     
 }
-.sec1sec1 h1
+.header1
 {
     font-size: 60px;
     width:400px;
     font-weight: bold;
 }
-.sec1sec1 h4
+.header4
 {
     font-size: 20px;
     max-width:400px;
@@ -121,6 +123,7 @@ a
     
     
     
+    
 }
 
 .sec3quote
@@ -134,6 +137,7 @@ a
 {
     align-self:flex-end;
     font-size: 25px;
+    padding-right:340px;
     
 }
 
@@ -188,3 +192,4 @@ a
     padding-bottom:90px;
     padding-top:90px;
 }
+
