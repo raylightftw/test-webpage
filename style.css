@@ -2,7 +2,7 @@ body
 {
     display:flex;
     flex-direction: column;
-    font-family:'Hero';
+    font-family:"Hero",sans-serif;
 }
 
 .header
@@ -27,4 +27,70 @@ a
 {
     text-decoration: none;
     color:white;
+}
+
+.sec1
+{
+    display:flex;
+    background:#1F2937;
+    color:white;
+}
+.sec1sec1
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:60px;
+    align-items: center;
+    padding-left:100px;
+}
+.sec1button
+{
+    max-width: 180px;
+    background-color:#3882f6 ;
+    color:white;
+    font-weight: 600;
+    padding:20px;
+   
+    border-radius: 15px;
+    
+}
+.sec1sec1 h1
+{
+    font-size: 50px;
+    max-width:400px;
+}
+.sec1sec1 h4
+{
+    font-size: 20px;
+    max-width:400px;
+}
+
+
+.sec2
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box
+{
+    width:250px;
+    height:250px;
+    border:2px;
+    border-style:solid;
+    border-color: #3882f6;
+    margin:10px;
+    background-color: rgb(255, 255, 255);
+}
+.boxandtext
+{
+    
+}
+
+.boxes
+{
+    display:flex;
+    justify-content: center;
 }
